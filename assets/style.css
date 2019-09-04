@@ -61,7 +61,7 @@ label {
 
 @media screen and (max-width: 768px) {
     body {
-        background-image: url('images/RT.jpg');
+        background-image: url('images/Caddy.jpg');
         width: 100%;
     }
     p {
@@ -91,7 +91,7 @@ label {
 
 @media screen and (max-width: 640px) {
     body {
-        background-image: url('images/RT.jpg');
+        background-image: url('images/SS.jpg');
         width: 100%;
     }
     p {
