@@ -19,7 +19,14 @@ function displayGiphyInfo() {
             var pOne = $("<p>").text("Rating: " + rating1);
             giphyDiv.append(pOne);
 
-            var imgURL
+            var imgURL = response.data[i].images.fixed_height_still.url;
+            console.log(imgURL);
+            var image = $("<img>").attr("src", imgURL);
+            image.attr("class", "giphy");
+            image.attr("data-state", "still");
+            image.attr("data-still",response.data[i].images.fixed_height_still.url);
+            image.attr("data-animate", response.data[i].images.fixed_height.url);
+            
         }
     })
 } 
